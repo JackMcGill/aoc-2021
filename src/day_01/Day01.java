@@ -10,9 +10,11 @@ public class Day01 implements Day {
 
     @Override
     public void run() {
+        System.out.println("Day 01");
         readFile();
         partOne();
         partTwo();
+        System.out.println("\n");
     }
 
     private void readFile() {
