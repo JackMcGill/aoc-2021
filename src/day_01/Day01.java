@@ -14,6 +14,7 @@ public class Day01 implements Day {
     public void run() {
         readFile();
         partOne();
+        partTwo();
     }
 
     private void readFile() {
@@ -37,6 +38,19 @@ public class Day01 implements Day {
             }
         }
         System.out.println("Part 1: " + count);
+    }
+
+    private void partTwo() {
+        int count = 0;
+        for (int i = 0; i < input.size() - 3; i++) {
+            int window1 = input.get(i) + input.get(i + 1) + input.get(i + 2);
+            int window2 = input.get(i + 1) + input.get(i + 2) + input.get(i + 3);
+
+            if (window2 > window1) {
+                count += 1;
+            }
+        }
+        System.out.println("Part 2: " + count);
     }
 
 }
