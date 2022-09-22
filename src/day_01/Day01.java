@@ -1,11 +1,9 @@
 package day_01;
 
 import shared.Day;
+import shared.FileHelper;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Day01 implements Day {
     ArrayList<Integer> input;
@@ -18,16 +16,8 @@ public class Day01 implements Day {
     }
 
     private void readFile() {
-        try {
-            File file = new File("src/day_01/input.txt");
-            Scanner reader = new Scanner(file);
-            input = new ArrayList<>();
-            while (reader.hasNextInt()) {
-                input.add(reader.nextInt());
-            }
-        } catch (FileNotFoundException e) {
-            System.out.println("Could not find file");
-        }
+        FileHelper helper = new FileHelper("src/day_01/input.txt");
+        this.input = helper.getIntArrayList();
     }
 
     private void partOne() {
