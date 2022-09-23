@@ -1,5 +1,5 @@
 package shared;
 
-public interface Day {
+public interface AdventOfCodeDay {
     void run();
 }

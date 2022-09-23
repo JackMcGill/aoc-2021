@@ -7,28 +7,15 @@ import java.util.Scanner;
 
 public class FileHelper {
     private final String path;
-    private int lines;
+
+    private final ArrayList<String> lines;
 
     public FileHelper(String path) {
         this.path = path;
+        lines = makeArrayList();
     }
 
-    public ArrayList<Integer> getIntArrayList() {
-        ArrayList<Integer> input = new ArrayList<>();
-        try {
-            File file = new File(path);
-            Scanner reader = new Scanner(file);
-            while (reader.hasNextInt()) {
-                input.add(reader.nextInt());
-            }
-        } catch (FileNotFoundException e) {
-            System.out.println("Could not find file");
-        }
-        countLines(input);
-        return input;
-    }
-
-    public ArrayList<String> getStringArrayList() {
+    private ArrayList<String> makeArrayList() {
         ArrayList<String> input = new ArrayList<>();
         try {
             File file = new File(path);
@@ -39,11 +26,22 @@ public class FileHelper {
         } catch (FileNotFoundException e) {
             System.out.println("Could not find file");
         }
-        countLines(input);
         return input;
     }
 
-    private void countLines(ArrayList<?> input) {
-        lines = input.size();
+    public ArrayList<String> getLines() {
+        return this.lines;
+    }
+
+    public ArrayList<Integer> getLinesAsInts() {
+        ArrayList<Integer> ints = new ArrayList<>();
+        for (String line : lines) {
+            ints.add(Integer.parseInt(line));
+        }
+        return ints;
+    }
+
+    public int getLineCount() {
+        return lines.size();
     }
 }

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27e2ea3-bd3b-4705-93fe-339f31549a3f" name="Changes" comment="" />
+    <list default="true" id="f27e2ea3-bd3b-4705-93fe-339f31549a3f" name="Changes" comment="Add file helper class">
+      <change afterPath="$PROJECT_DIR$/src/day_02/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_02/Day02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_02/Day02.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,15 +17,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="g" />
+        <option name="rewordedMessage" value="setup" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="ef2781dd339b843f520420db378e25721631438d" />
+  </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -30,12 +45,20 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="day_01" />
-                    <option name="lastUsedInstant" value="1663831209" />
+                    <option name="branchName" value="day_02" />
+                    <option name="lastUsedInstant" value="1663846035" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="addHelpers" />
+                    <option name="lastUsedInstant" value="1663844462" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1663831208" />
+                    <option name="lastUsedInstant" value="1663832856" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="day_01" />
+                    <option name="lastUsedInstant" value="1663831209" />
                   </RecentBranch>
                 </list>
               </option>
@@ -48,6 +71,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2F776lUp9MX11S05v5WE9NFrd3N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,7 +91,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -91,7 +118,16 @@
       <option name="presentableId" value="Default" />
       <updated>1663831109776</updated>
       <workItem from="1663831111180" duration="1323000" />
+      <workItem from="1663905154280" duration="7178000" />
     </task>
+    <task id="LOCAL-00001" summary="Add file helper class">
+      <created>1663845687015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663845687015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="solve part 2" />
+    <MESSAGE value="Add file helper class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add file helper class" />
   </component>
 </project>
