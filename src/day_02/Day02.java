@@ -38,6 +38,21 @@ public class Day02 implements AdventOfCodeDay {
     }
 
     private void partTwo() {
+        int horizontalPosition = 0;
+        int depth = 0;
+        int aim = 0;
 
+        for (String line : input) {
+            String[] vector = line.split(" ");
+            switch (vector[0]) {
+                case "forward" -> {
+                    horizontalPosition += Integer.parseInt(vector[1]);
+                    depth += (aim * Integer.parseInt(vector[1]));
+                }
+                case "down" -> aim += Integer.parseInt(vector[1]);
+                case "up" -> aim -= Integer.parseInt(vector[1]);
+            }
+        }
+        System.out.println("Part 2: " + horizontalPosition * depth);
     }
 }
