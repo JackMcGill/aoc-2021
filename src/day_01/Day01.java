@@ -1,11 +1,11 @@
 package day_01;
 
-import shared.Day;
+import shared.AdventOfCodeDay;
 import shared.FileHelper;
 
 import java.util.ArrayList;
 
-public class Day01 implements Day {
+public class Day01 implements AdventOfCodeDay {
     ArrayList<Integer> input;
 
     @Override
@@ -19,7 +19,7 @@ public class Day01 implements Day {
 
     private void readFile() {
         FileHelper helper = new FileHelper("src/day_01/input.txt");
-        this.input = helper.getIntArrayList();
+        this.input = helper.getLinesAsInts();
     }
 
     private void partOne() {
@@ -44,5 +44,4 @@ public class Day01 implements Day {
         }
         System.out.println("Part 2: " + count);
     }
-
 }
