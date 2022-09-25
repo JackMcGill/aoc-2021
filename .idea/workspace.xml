@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27e2ea3-bd3b-4705-93fe-339f31549a3f" name="Changes" comment="Add file helper class">
-      <change afterPath="$PROJECT_DIR$/src/day_02/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day_02/Day02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_02/Day02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_03/Day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_03/Day03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/FileHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="day_03" />
+                    <option name="lastUsedInstant" value="1663913400" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="day_02" />
                     <option name="lastUsedInstant" value="1663846035" />
                   </RecentBranch>
@@ -81,20 +84,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -119,6 +122,8 @@
       <updated>1663831109776</updated>
       <workItem from="1663831111180" duration="1323000" />
       <workItem from="1663905154280" duration="7178000" />
+      <workItem from="1664053191407" duration="4079000" />
+      <workItem from="1664069271019" duration="2878000" />
     </task>
     <task id="LOCAL-00001" summary="Add file helper class">
       <created>1663845687015</created>
