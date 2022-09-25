@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class FileHelper {
     private final String path;
-
     private final ArrayList<String> lines;
 
     public FileHelper(String path) {
@@ -39,10 +38,6 @@ public class FileHelper {
             ints.add(Integer.parseInt(line));
         }
         return ints;
-    }
-
-    public int getLineCount() {
-        return lines.size();
     }
 
     private int partsPerLine() {

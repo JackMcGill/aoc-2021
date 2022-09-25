@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27e2ea3-bd3b-4705-93fe-339f31549a3f" name="Changes" comment="Add file helper class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day_03/Day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_03/Day03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/FileHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +27,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="g" />
-        <option name="rewordedMessage" value="setup" />
+        <option name="originalMessage" value="it works" />
+        <option name="rewordedMessage" value="Create helper method for getting columns" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="ef2781dd339b843f520420db378e25721631438d" />
+    <option name="onto" value="e135ba772976991e47a407c04a3af48f84792baa" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -123,7 +123,8 @@
       <workItem from="1663831111180" duration="1323000" />
       <workItem from="1663905154280" duration="7178000" />
       <workItem from="1664053191407" duration="4079000" />
-      <workItem from="1664069271019" duration="2878000" />
+      <workItem from="1664069271019" duration="5503000" />
+      <workItem from="1664077612800" duration="1975000" />
     </task>
     <task id="LOCAL-00001" summary="Add file helper class">
       <created>1663845687015</created>
